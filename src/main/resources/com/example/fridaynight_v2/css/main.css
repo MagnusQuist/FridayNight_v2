@@ -1,0 +1,66 @@
+/* Main Menu Button Styles */
+.btn {
+    -fx-background-color: rgba(255,255,255,0.6);
+    -fx-min-width: 130px;
+    -fx-padding: 10px 0;
+    -fx-font-weight: bold;
+}
+
+.btn:focused, .btn:hover {
+    -fx-background-color: rgba(255,255,255,0.8);
+}
+
+.gameBtn {
+    -fx-background-color: rgba(255,255,255,0.6);
+    -fx-padding: 10px 16px;
+    -fx-font-weight: bold;
+}
+
+/* Progressbar */
+.progress-bar {
+    -fx-accent: #3c93c7;
+}
+
+.progress-bar > .track {
+    -fx-text-box-border: #2f3138;
+    -fx-control-inner-background: #454749;
+}
+
+/* Introduction Styles */
+.heading {
+    -fx-text-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+
+/* Popup styles */
+.popup {
+    -fx-background-color: #2f4f4f;
+    -fx-pref-height: 350px;
+    -fx-pref-width: 500px;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+}
+
+.fact_message {
+    -fx-text-fill: white;
+    -fx-max-width: 400px;
+    -fx-font-size: 14px;
+}
+
+.alko {
+    -fx-text-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+/* Quiz styles */
+.quiz_heading {
+    -fx-text-alignment: center;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-padding: 0 0 20px 0;
+}

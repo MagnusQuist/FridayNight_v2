@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.Button?>
+
+<StackPane fx:controller="com.example.fridaynight_v2.controllers.MainMenuController"
+           xmlns:fx="http://javafx.com/fxml" stylesheets="@../css/main.css">
+
+    <!-- Set Background Image -->
+    <ImageView preserveRatio="true">
+        <Image url="@../images/menu.png" backgroundLoading="true"/>
+    </ImageView>
+
+    <!-- Add Buttons to Screen -->
+    <VBox alignment="CENTER" spacing="14.0">
+        <Button styleClass="btn" onAction="#ShowIntro" text="Start Spil"/>
+        <Button styleClass="btn" onAction="#QuitGame" text="Luk Spil"/>
+    </VBox>
+</StackPane>

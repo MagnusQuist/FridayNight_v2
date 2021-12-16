@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox fx:id="wrapper" alignment="CENTER" stylesheets="@../css/main.css" prefHeight="500.0" prefWidth="800.0"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.fridaynight_v2.controllers.sceneControllers.QuizController">
+    <padding>
+        <Insets bottom="16.0" left="16.0" right="16.0" top="16.0"/>
+    </padding>
+    <Label text="Quiz-tid! Kopier linket til quizzen og indsæt det i din browser." styleClass="quiz_heading"/>
+    <Button fx:id="link" text="Kopiér link til Quiz" onAction="#copyLink"/>
+    <Label fx:id="copy_text"/>
+</VBox>

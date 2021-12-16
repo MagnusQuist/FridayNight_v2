@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<StackPane fx:controller="com.example.fridaynight_v2.controllers.MainMenuController"
+           xmlns:fx="http://javafx.com/fxml" alignment="center"
+           stylesheets="@../css/main.css">
+    <ImageView fx:id="imageView" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../images/menu.png" backgroundLoading="true"/>
+    </ImageView>
+    <VBox alignment="CENTER" spacing="14.0">
+        <Label prefWidth="400.0" styleClass="heading" wrapText="true">
+            Hvordan spiller du:
+        </Label>
+        <Label prefWidth="400.0" styleClass="intro_text" wrapText="true">
+            Bevæg spilleren ved brug af 'W' 'A' 'D' 'S'.
+        </Label>
+        <Label prefWidth="400.0" styleClass="intro_text" wrapText="true">
+            Ryk rund mellem skærmene for at udforske, drikke øl og opsamle information
+        </Label>
+        <Label prefWidth="400.0" styleClass="intro_text" wrapText="true">
+            Efter 5 minutter startes en quiz, med spørgsmål omhandlende alkoholforbrug.
+        </Label>
+        <Button styleClass="btn" onAction="#StartGame" text="Begynd!"/>
+    </VBox>
+</StackPane>
